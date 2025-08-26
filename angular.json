@@ -24,7 +24,8 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              }
+              },
+              "src/assets"
             ],
             "styles": [
               "src/styles.css"
@@ -83,12 +84,7 @@
               "zone.js/testing"
             ],
             "tsConfig": "tsconfig.spec.json",
-            "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
-            ],
+            "assets": ["src/assets"],
             "styles": [
               "src/styles.css"
             ],
@@ -97,5 +93,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "bdf38910-fa61-4035-ac53-97e69e7a1a47"
   }
 }

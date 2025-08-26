@@ -1,0 +1,36 @@
+.header-logo{
+    width: 120px;
+}
+
+.group-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .6rem 1rem;
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.1);
+}
+
+.group-header .group-navigation{
+    display: flex;
+    column-gap: 2rem;
+}
+
+.group-navigation .button-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.group-navigation .btn-navigation {
+    background-image: linear-gradient(to right, #d434b0, #8029fc);
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}
