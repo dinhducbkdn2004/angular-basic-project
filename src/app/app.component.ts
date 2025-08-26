@@ -7,7 +7,7 @@ import { HeaderLayoutComponent } from './shared/header-layout/header-layout.comp
   standalone: true,
   imports: [RouterOutlet, HeaderLayoutComponent],
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
   title = 'angular-basic-project';
